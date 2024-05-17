@@ -1,0 +1,70 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.parent{
+    display: flex;
+    width: 70%;
+}
+.left{
+    width: 60%;
+}
+.right{
+    width: 40%;
+}
+button{
+    background-color: black;
+    color: white;
+}
+img{
+    border-radius: 10px;
+    width: 90%;
+}
+h1,h4{
+    width: 550px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width:30%; 
+}
+.part1{
+    box-shadow: 1px 1px 1px gainsboro;
+border-radius: 10px;
+
+}
+#div{
+    padding: 30px;
+}
+.part2{
+box-shadow:1px 1px 1px gainsboro ;
+background-color: black;
+font-size: 30px;
+color: white;
+border-radius: 10px;
+padding:12px;
+height: 40vh;
+}
+input,select{
+    border-radius: 10px;
+    size: 20px;
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    
+    background-image:url(./images/pexels-ann-h-1762851.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+button{
+    border-radius: 5px;
+    padding: 10px;
+}
+.part1 #div p:hover {
+    background-color: darkmagenta;
+    border-radius: 10px;
+}
+button:focus{
+    background-color: darkmagenta;
+}
